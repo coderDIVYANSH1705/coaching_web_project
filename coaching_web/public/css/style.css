@@ -1,0 +1,43 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .hero-section {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .table th {
+    background-color: #f8f9fa;
+  }
+  
+  #studentsTableBody tr:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .action-btns .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+  }
+  
+  footer {
+    margin-top: 3rem;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-section {
+      padding: 2rem 1rem;
+    }
+    
+    .table-responsive {
+      overflow-x: auto;
+    }
+  }
