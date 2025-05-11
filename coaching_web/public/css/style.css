@@ -25,11 +25,11 @@ body {
   
   .action-btns .btn {
     padding: 0.25rem 0.5rem;
-    font-size: 0.875rem;
+    font-size: 0.95rem;
   }
   
   footer {
-    margin-top: 3rem;
+   size: 3 rem;
   }
   
   @media (max-width: 768px) {
@@ -45,4 +45,9 @@ body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       font-weight: bold;
     }
+  }
+  .container text-center {
+    color: #6e8efb;
+   
+
   }
